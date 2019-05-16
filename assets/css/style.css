@@ -1,0 +1,417 @@
+body {
+    color: #6c6c6c;
+}
+
+a {
+    color: #797979;
+}
+
+/* ------------- Sections da página -------------- */
+.section-login {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+}
+
+.section-logo {
+    background-color: #f5f6f8;
+}
+
+.section-destaques {
+    background-color: #f5f6f8;
+}
+
+.section-delivery {
+    background-color: #f5f6f8;
+}
+
+.section-produtos {
+    background-color: #f5f6f8;
+}
+
+.section-produto-descricao {
+    background-color: #f5f6f8;
+    color: #797979;
+}
+
+.section-tutorial {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5303e;
+    color: #f5f6f8;
+}
+
+.section-blog {
+    font-family: 'Lato', sans-serif;
+    background-color: #f5f6f8;
+}
+
+.section-ofertas {
+    font-family: 'Lato', sans-serif;
+    background-color: #f5f6f8;
+    color: #797979;
+    padding-bottom: 6rem;
+}
+/* ------------- Fim das Sections --------------- */
+
+.breadcrumb {
+    background-color: #f5f6f8;
+}
+
+.ref-produto {
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+}
+
+.conteudo-produto-interna {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+.label-old-preco-interna {
+    font-size: 19px;
+}
+
+.label-desconto-interna {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    background-color: #cecece;
+    color: #fafafa;
+}
+
+.card-body-interna {
+    padding: 40px 150px 40px 40px;
+}
+
+.icon-basket-interna {
+    font-size: 2rem;
+}
+
+.label-new-preco-interna {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color: #92d400;
+}
+
+.input-qtde {
+    width: 70%;
+    text-align: center;
+    font-weight: 700;
+    color: #797979;
+}
+
+.btnFinalizar {
+    background-color: #92d400;
+    color: #fafafa;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    height: 2.8rem;
+    padding: 0 40px;
+}
+
+.section-ofertas h3 {
+    color: #f5303e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.main-site .section-logo {
+    background-color: #f5f6f8;
+    height: 200px;
+}
+
+.section-tutorial span {
+    display: block;
+}
+
+.titulo-tutorial {
+    font-size: 3.5rem;
+}
+
+.titulo-tutorial-como, .titulo-tutorial-funciona{
+    line-height: 3rem;
+}
+
+.texto-tutorial {
+    font-size: 0.8rem;
+}
+
+.texto-pros {
+    font-size: 0.8rem;
+}
+
+.div-login {
+    display: inline-block;
+}
+
+.login {
+    color: #6c6c6c;
+}
+
+.create-account {
+    color: #f4303e;
+}
+
+.form-pesquisa {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.input-pesquisa {
+    border-radius: 50px;
+    position: relative;
+    background-color: #e1e1e1;
+    font-weight: 500;
+}
+
+.btnPesquisar {
+    border-radius: 0 50px 50px 0;
+    position: absolute;
+    background-color: #92d400;
+}
+
+.input-carrinho {
+    border-radius: 50px;
+    position: relative;
+    text-align: center;
+    /* padding-right: 0px;
+    padding-left: 24px; */
+}
+
+.btnCarrinho {
+    border-radius: 50px 0 0 50px;
+    position: absolute;
+    background-color: #92d400;
+}
+
+.txt-delivery-1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #f5303e;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+
+.txt-delivery-2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #92d400;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 20px;
+}
+
+.txt-delivery-3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+}
+
+.label-desconto {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    background-color: #92d400;
+    color: #fafafa;
+}
+
+.label-old-preco {
+    text-decoration: line-through;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+.label-new-preco {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #92d400;
+}
+
+.titulo-destaques {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo-destaques a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+}
+
+.conteudo-produto {
+    font-family: 'Lato', sans-serif;
+}
+
+.slick-dots li button:before {
+    font-size: 3rem;
+}
+
+.posBtnContratar {
+    top: 1.6rem;
+}
+
+.btnContratar {
+    background-color: #92d400;
+    color: #fafafa;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    height: 3.5rem;
+}
+
+.titulo-noticia {
+    font-size: 1.2rem;
+}
+
+.texto-noticia {
+    font-size: 0.8rem;
+}
+
+.depoimentos {
+    font-size: 1.5rem;
+}
+
+.titulo-depoimento {
+    color: #797979;
+}
+
+.texto-depoimento {
+    font-size: 0.8rem;
+}
+
+.btnDepoimentos {
+    height: 3rem;
+}
+
+footer {
+    font-size: 0.8rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer-categoria {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.footer-institucional {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.banner-slider {
+    padding-left: 16px !important;
+}
+
+.formas-de-pagamento {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.logo-loja {
+    max-width: 290px;
+}
+
+.logo {
+    border: dashed 2px;
+    padding: 6px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* --------------- Icones ----------------- */
+.fa-phone {
+    color: #92d400;
+}
+
+.fa-envelope {
+    color: #92d400;
+}
+
+.fa-shopping-basket {
+    font-size: 22px;
+}
+
+.fa-envira{
+    color: #92d400;
+}
+/* ----------- Fim dos Icones ------------- */
+
+/* ----------- Filtro dos Produtos -------- */
+.filterDiv {
+    display: none;
+}
+  
+.show {
+    display: block;
+}
+  
+.btnFiltro {
+    border-color: #ddd;
+    background-color: #f5f6f8;
+    border-width: 2px;
+}
+ 
+.btnFiltro:hover {
+    background-color: #92d400;
+}
+  
+.btnFiltro.active {
+    background-color: #92d400;
+    color: #fafafa;
+}
+/* ----- Fim do Filtro dos Produtos ------ */
+
+/* ----- Media Query ----- */
+@media screen and (max-width: 767px) {
+    .filtros {
+        display: flex;
+        flex-direction: column;
+    }
+    .btnFiltro {
+        margin-right: 0 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .telefone {
+        text-align: right;
+    }
+
+    .telefone span {
+        display: none;
+    }
+
+    .email {
+        text-align: right;
+    }
+
+    .email span {
+        display: none;
+    }
+
+    .card-body-interna {
+        padding: 20px;
+    }
+
+    .preco-interna {
+        padding: 0 !important;
+    }
+
+    .label-new-preco-interna {
+        font-size: 1.2rem;
+    }
+}
+
+/* tablet/iPad */
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .txt-delivery-1 {
+        font-size: 3rem;
+    }
+
+    .card-body-interna {
+        padding: 20px;
+    }
+
+    .preco-interna {
+        padding: 0 !important;
+    }
+
+    .label-new-preco-interna {
+        font-size: 1.2rem;
+    }
+}

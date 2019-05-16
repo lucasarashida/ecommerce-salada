@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Loja de Saladas</title>
+
+        <!-- Normalize CSS-->
+		<link type="text/css" rel="stylesheet" href="assets/css/normalize.css">
+		<!-- Bootstrap  CSS-->
+		<link type="text/css" rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+		<!-- Font Awesome CSS-->		
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<!-- Google Fonts - Lato -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900" rel="stylesheet">
+		<!-- Slick Slider CSS -->
+		<link type="text/css" rel="stylesheet" href="assets/slick/slick.css">
+		<link type="text/css" rel="stylesheet" href="assets/slick/slick-theme.css">
+		<!-- Lightbox CSS -->
+		<link type="text/css" rel="stylesheet" href="assets/css/lightbox.css">
+		<!-- Main CSS -->
+		<link type="text/css" rel="stylesheet" href="assets/css/style.css">
+		
+		<!-- Jquery -->
+		<script src="assets/js/jquery-3.3.1.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<!-- Slick Slider JS -->
+		<script src="assets/slick/slick.min.js"></script>
+		<!-- Lightbox JS -->
+		<script src="assets/js/lightbox.js"></script>
+    </head>
+
+    <body>
+        <header class="header-site">
+            <section class="section-login py-2">
+                <div class="container-fluid">
+                    <div class="row justify-content-between">
+                        <div class=" col-12 col-md-3 telefone">
+                            <i class="fa fa-phone mr-1"></i><span>Telefone:</span> (11) 1234-4321
+                        </div>
+                        <div class="col-12 col-md-4 email">
+                            <i class="fa fa-envelope mr-1"></i><span>E-mail:</span> vendas@dominio.com.br
+                        </div>
+                        <div class="col-12 col-md-5 text-right div-login">
+                            Seja bem-vindo(a) <a href="#" class="login"><strong>Entrar</strong></a> ou <a href="#" class="create-account"><strong>Criar uma conta</strong></a>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+            <section class="section-logo pt-4 pb-5">
+                <div class="container-fluid">
+                    <div class="row justify-content-between align-items-center mx-2 mx-md-5">
+                        <div class="col-12 col-md-3 px-0 ml-0 ml-md-4">
+                            <div class="logo">
+                                <span>Logo da Empresa</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3 mt-3 mt-md-0">
+                            <form class="form-inline my-2 form-pesquisa">
+                                <input class="form-control input-pesquisa w-100" type="search" placeholder="O que você procura?" aria-label="Pesquisar">
+                                <button class="btn btn-success my-sm-0 btnPesquisar" type="submit"><i class="fa fa-search"></i>
+                                </button>
+                              </form>
+                        </div>
+                        <div class="col-12 col-md-2 mr-5">
+                            <form class="form-inline my-2">
+                                <input class="form-control mr-sm-2 pl-4 pr-0 input-carrinho" disabled type="text" placeholder="Carrinho vazio" aria-label="Seu Carrinho">
+                                <button class="btn btn-success my-sm-0 btnCarrinho" type="submit"><i class="fas fa-shopping-basket"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <main class="main-site">
+            <section class="section-destaques">
+                <div class="container-fluid">
+                    <div class="row mx-2 mx-md-5">
+                        <div class="col-12">
+                            <div class="destaque-slider d-flex">
+                                <div class="card p-2 m-3" style="width: 18rem;">
+                                    <img src="assets/images/produto01.png" class="card-img-top h-100" alt="Kit Salada para uma pessoa">
+                                    <div class="card-body text-center px-1">
+                                        <h5 class="card-title titulo-destaques">
+                                            <a href="produto.html"><strong>Kit Salada p/ 1 pessoa</strong></a>
+                                        </h5>
+                                        <div class="card-text">
+                                            <div class="conteudo-produto px-4">Conteúdo: Alface americana, alface crespa e tomate</div>
+                                            <div class="d-flex justify-content-center my-3">
+                                                <div class="d-block">
+                                                    <div class="label-old-preco">R$ 100,00</div>
+                                                </div>
+                                                <div class="d-block">
+                                                    <div class="px-2 ml-2 rounded-pill label-desconto">10%</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-center align-items-end">
+                                                <div class="d-block">
+                                                    <i class="fas fa-shopping-basket"></i>
+                                                </div>
+                                                <div class="d-block">
+                                                    <div class="ml-2 label-new-preco">
+                                                        <strong>R$ 90,00</strong>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card p-2 m-3" style="width: 18rem;">
+                                    <img src="assets/images/produto01.png" class="card-img-top h-100" alt="Kit Salada para duas pessoas">
+                                    <div class="card-body text-center px-1">
+                                        <h5 class="card-title titulo-destaques">
+                                            <a href="produto.html"><strong>Kit Salada p/ 2 pessoas</strong></a>
+                                        </h5>
+                                        <div class="card-text">
+                                            <div class="conteudo-produto px-4">Conteúdo: Alface americana, alface crespa e tomate</div>
+                                            <div class="d-flex justify-content-center my-3">
+                                                <div class="d-block">
+                                                    <div class="label-old-preco">R$ 100,00</div>
+                                                </div>
+                                                <div class="d-block">
+                                                    <div class="px-2 ml-2 rounded-pill label-desconto">10%</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-center align-items-end">
+                                                <div class="d-block">
+                                                    <i class="fas fa-shopping-basket"></i>
+                                                </div>
+                                                <div class="d-block">
+                                                    <div class="ml-2 label-new-preco">
+                                                        <strong>R$ 90,00</strong>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card p-2 m-3" style="width: 18rem;">
+                                    <img src="assets/images/produto01.png" class="card-img-top h-100" alt="Kit Fitness para uma pessoa">
+                                    <div class="card-body text-center px-1">
+                                        <h5 class="card-title titulo-destaques">
+                                            <a href="produto.html"><strong>Kit Fitness p/ 1 pessoa</strong></a>
+                                        </h5>
+                                        <div class="card-text">
+                                            <div class="conteudo-produto px-4">Conteúdo: Alface americana, alface crespa e tomate</div>
+                                            <div class="d-flex justify-content-center my-3">
+                                                <div class="d-block">
+                                                    <div class="label-old-preco">R$ 100,00</div>
+                                                </div>
+                                                <div class="d-block">
+                                                    <div class="px-2 ml-2 rounded-pill label-desconto">10%</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-center align-items-end">
+                                                <div class="d-block">
+                                                    <i class="fas fa-shopping-basket"></i>
+                                                </div>
+                                                <div class="d-block">
+                                                    <div class="ml-2 label-new-preco">
+                                                        <strong>R$ 90,00</strong>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card p-2 m-3" style="width: 18rem;">
+                                    <img src="assets/images/produto01.png" class="card-img-top h-100" alt="Kit Familia para quatro pessoas">
+                                    <div class="card-body text-center px-1">
+                                        <h5 class="card-title titulo-destaques">
+                                            <a href="produto.html"><strong>Kit Familia p/ 4 pessoas</strong></a>
+                                        </h5>
+                                        <div class="card-text">
+                                            <div class="conteudo-produto px-4">Conteúdo: Alface americana, alface crespa e tomate</div>
+                                            <div class="d-flex justify-content-center my-3">
+                                                <div class="d-block">
+                                                    <div class="label-old-preco">R$ 100,00</div>
+                                                </div>
+                                                <div class="d-block">
+                                                    <div class="px-2 ml-2 rounded-pill label-desconto">10%</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-center align-items-end">
+                                                <div class="d-block">
+                                                    <i class="fas fa-shopping-basket"></i>
+                                                </div>
+                                                <div class="d-block">
+                                                    <div class="ml-2 label-new-preco">
+                                                        <strong>R$ 90,00</strong>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card p-2 m-3" style="width: 18rem;">
+                                    <img src="assets/images/produto01.png" class="card-img-top h-100" alt="Salada Ceaser para uma pessoa">
+                                    <div class="card-body text-center px-1">
+                                        <h5 class="card-title titulo-destaques">
+                                            <a href="produto.html"><strong>Salada Ceaser p/ 1 pessoa</strong></a>
+                                        </h5>
+                                        <div class="card-text">
+                                            <div class="conteudo-produto px-4">Conteúdo: Alface americana, alface crespa e tomate</div>
+                                            <div class="d-flex justify-content-center my-3">
+                                                <div class="d-block">
+                                                    <div class="label-old-preco">R$ 100,00</div>
+                                                </div>
+                                                <div class="d-block">
+                                                    <div class="px-2 ml-2 rounded-pill label-desconto">10%</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-center align-items-end">
+                                                <div class="d-block">
+                                                    <i class="fas fa-shopping-basket"></i>
+                                                </div>
+                                                <div class="d-block">
+                                                    <div class="ml-2 label-new-preco">
+                                                        <strong>R$ 90,00</strong>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-delivery py-5">
+                <div class="">
+                    <div class="row justify-content-end align-items-center m-0 w-100">
+                        <div class="col-12 col-md-4 mr-md-5">
+                            <div class="row">
+                                <div class="col-12">
+                                    <span class="txt-delivery-1">Sua vida,</span><br>
+                                    <span class="txt-delivery-2">mais saudável</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 txt-delivery-3">
+                                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor luctus. 
+                                            Sed faucibus nunc eu</strong> vehicula pulvinar.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-5">
+                                    <a href="#"><img src="assets/images/icon-delivery.png" alt="" class="img-fluid"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 p-0">
+                            <div class="banner-slider">
+                                <img src="assets/images/banner-salada.png" alt="Banner Salada" class="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0">
+            <section class="section-produtos py-5">
+                <div class="container-fluid">
+                    <!-- Botões de controle -->
+                    <div class="row justify-content-between mx-2 mx-md-5 px-3">
+                        <div class="col-12 col-md-6">
+                            <div class="btn-group btn-group-toggle filtros" data-toggle="buttons">
+                                <button class="btn btnFiltro rounded-pill mr-3" onclick="filterSelection('filtro-todos')">Mostrar Todos</button>
+                                <button class="btn btnFiltro rounded-pill mr-3" onclick="filterSelection('filtro-para-1')">Individual</button>
+                                <button class="btn btnFiltro rounded-pill mr-3" onclick="filterSelection('filtro-para-2')">Para dois</button>
+                                <button class="btn btnFiltro rounded-pill mr-3" onclick="filterSelection('filtro-para-3')">Para três</button>
+                                <button class="btn btnFiltro rounded-pill mr-3" onclick="filterSelection('filtro-kit')">Kit</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <select class="custom-select rounded-pill">
+                                <option selected><strong>Ordenar por: </strong>Preço</option>
+                                <option value="1">Um</option>
+                                <option value="2">Dois</option>
+                                <option value="3">Tres</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- Os produtos são filtrados de acordo com a classe que eles possuem. Eles podem pertencer a multiplas categorias -->
+                    <div class="row mx-2 mx-md-5">
+                        <div class="col-md-6">
+                            <div class="card m-3 filterDiv filtro-para-1">
+                                <div class="row no-gutters">
+                                    <div class="col-md-5">
+                                        <img src="assets/images/produto01.png" class="card-img-top h-100" alt="Salada Ceaser para uma pessoa">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body text-center px-1">
+                                            <h5 class="card-title titulo-destaques">
+                                                <a href="produto.html"><strong>Salada Ceaser p/ 1 pessoa</strong></a>
+                                            </h5>
+                                            <div class="card-text">
+                                                <div class="conteudo-produto px-4">Conteúdo: Alface americana, alface crespa e tomate</div>
+                                                <div class="d-flex justify-content-center my-3">
+                                                    <div class="d-block">
+                                                        <div class="label-old-preco">R$ 100,00</div>
+                                                    </div>
+                                                    <div class="d-block">
+                                                        <div class="px-2 ml-2 rounded-pill label-desconto">10%</div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-end">
+                                                    <div class="d-block">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                    <div class="d-block">
+                                                        <div class="ml-2 label-new-preco">
+                                                            <strong>R$ 90,00</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card m-3 filterDiv filtro-para-2">
+                                <div class="row no-gutters">
+                                    <div class="col-md-5">
+                                        <img src="assets/images/produto01.png" class="card-img-top h-100" alt="Salada Ceaser para duas pessoas">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body text-center px-1">
+                                            <h5 class="card-title titulo-destaques">
+                                                <a href="produto.html"><strong>Salada Ceaser p/ 2 pessoas</strong></a>
+                                            </h5>
+                                            <div class="card-text">
+                                                <div class="conteudo-produto px-4">Conteúdo: Alface americana, alface crespa e tomate</div>
+                                                <div class="d-flex justify-content-center my-3">
+                                                    <div class="d-block">
+                                                        <div class="label-old-preco">R$ 100,00</div>
+                                                    </div>
+                                                    <div class="d-block">
+                                                        <div class="px-2 ml-2 rounded-pill label-desconto">10%</div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-end">
+                                                    <div class="d-block">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                    <div class="d-block">
+                                                        <div class="ml-2 label-new-preco">
+                                                            <strong>R$ 90,00</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mx-2 mx-md-5">
+                        <div class="col-md-6">
+                            <div class="card m-3 filterDiv filtro-para-1">
+                                <div class="row no-gutters">
+                                    <div class="col-md-5">
+                                        <img src="assets/images/produto01.png" class="card-img-top h-100" alt="Salada Ceaser para uma pessoa">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body text-center px-1">
+                                            <h5 class="card-title titulo-destaques">
+                                                <a href="produto.html"><strong>Salada Ceaser p/ 1 pessoa</strong></a>
+                                            </h5>
+                                            <div class="card-text">
+                                                <div class="conteudo-produto px-4">Conteúdo: Alface americana, alface crespa e tomate</div>
+                                                <div class="d-flex justify-content-center my-3">
+                                                    <div class="d-block">
+                                                        <div class="label-old-preco">R$ 100,00</div>
+                                                    </div>
+                                                    <div class="d-block">
+                                                        <div class="px-2 ml-2 rounded-pill label-desconto">10%</div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-end">
+                                                    <div class="d-block">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                    <div class="d-block">
+                                                        <div class="ml-2 label-new-preco">
+                                                            <strong>R$ 90,00</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card m-3 filterDiv filtro-para-2">
+                                <div class="row no-gutters">
+                                    <div class="col-md-5">
+                                        <img src="assets/images/produto01.png" class="card-img-top h-100" alt="Salada Ceaser para duas pessoas">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body text-center px-1">
+                                            <h5 class="card-title titulo-destaques">
+                                                <a href="produto.html"><strong>Salada Ceaser p/ 2 pessoas</strong></a>
+                                            </h5>
+                                            <div class="card-text">
+                                                <div class="conteudo-produto px-4">Conteúdo: Alface americana, alface crespa e tomate</div>
+                                                <div class="d-flex justify-content-center my-3">
+                                                    <div class="d-block">
+                                                        <div class="label-old-preco">R$ 100,00</div>
+                                                    </div>
+                                                    <div class="d-block">
+                                                        <div class="px-2 ml-2 rounded-pill label-desconto">10%</div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-end">
+                                                    <div class="d-block">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                    <div class="d-block">
+                                                        <div class="ml-2 label-new-preco">
+                                                            <strong>R$ 90,00</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mx-2 mx-md-5">
+                        <div class="col-md-6">
+                            <div class="card m-3 filterDiv filtro-para-1">
+                                <div class="row no-gutters">
+                                    <div class="col-md-5">
+                                        <img src="assets/images/produto01.png" class="card-img-top h-100" alt="Salada Ceaser para uma pessoa">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body text-center px-1">
+                                            <h5 class="card-title titulo-destaques">
+                                                <a href="produto.html"><strong>Salada Ceaser p/ 1 pessoa</strong></a>
+                                            </h5>
+                                            <div class="card-text">
+                                                <div class="conteudo-produto px-4">Conteúdo: Alface americana, alface crespa e tomate</div>
+                                                <div class="d-flex justify-content-center my-3">
+                                                    <div class="d-block">
+                                                        <div class="label-old-preco">R$ 100,00</div>
+                                                    </div>
+                                                    <div class="d-block">
+                                                        <div class="px-2 ml-2 rounded-pill label-desconto">10%</div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-end">
+                                                    <div class="d-block">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                    <div class="d-block">
+                                                        <div class="ml-2 label-new-preco">
+                                                            <strong>R$ 90,00</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card m-3 filterDiv filtro-para-2">
+                                <div class="row no-gutters">
+                                    <div class="col-md-5">
+                                        <img src="assets/images/produto01.png" class="card-img-top h-100" alt="Salada Ceaser para duas pessoas">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body text-center px-1">
+                                            <h5 class="card-title titulo-destaques">
+                                                <a href="produto.html"><strong>Salada Ceaser p/ 2 pessoas</strong></a>
+                                            </h5>
+                                            <div class="card-text">
+                                                <div class="conteudo-produto px-4">Conteúdo: Alface americana, alface crespa e tomate</div>
+                                                <div class="d-flex justify-content-center my-3">
+                                                    <div class="d-block">
+                                                        <div class="label-old-preco">R$ 100,00</div>
+                                                    </div>
+                                                    <div class="d-block">
+                                                        <div class="px-2 ml-2 rounded-pill label-desconto">10%</div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-end">
+                                                    <div class="d-block">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                    <div class="d-block">
+                                                        <div class="ml-2 label-new-preco">
+                                                            <strong>R$ 90,00</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </section>
+            <section class="section-tutorial pt-5">
+                <div class="container">
+                    <div class="row no-gutters">
+                        <div class="col-12 col-md-6 p-0">
+                            <div class="titulo-tutorial mb-3">
+                                <span class="titulo-tutorial-como"><strong>Como</strong></span>
+                                <span class="titulo-tutorial-funciona"> <i class="fab fa-envira"></i><em>Funciona?</em></span>
+                            </div>
+                            <div class="texto-tutorial">
+                                <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor luctus. 
+                                Sed faucibus nunc eu</strong> vehicula pulvinar. Proin ullamcorper lorem ligula, at gravida lacus ultricies sed. 
+                                Mauris eu tortor eget eros pharetra tristique. Mauris vulputate placerat eros, et lobortis ex condimentum in. 
+                                Curabitur eu erat pulvinar. <br><br>
+                                Commodo odio id, laoreet velit. Nullam a ex efficitur, viverra urna at, iaculis nisl. 
+                                Curabitur dignissim nibh quis mi dapibus, ut efficitur metus rutrum. Donec laoreet nisl ligula, feugiat malesuada 
+                                tortor placerat eget.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 p-0">
+                            <div class="row">
+                                <div class="col-2 text-center p-2">
+                                    <img src="assets/images/icon-agilidade.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-10 p-2">
+                                    <span><strong>Agilidade</strong></span>
+                                    <span class="texto-pros">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Vestibulum porttitor luctus. 
+                                        Sed faucibus nunc eu</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2 text-center p-2">
+                                    <img src="assets/images/icon-saudavel.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-10 p-2">
+                                    <span><strong>Saudável</strong></span>
+                                    <span class="texto-pros">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Vestibulum porttitor luctus. 
+                                        Sed faucibus nunc eu</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2 text-center p-2">
+                                    <img src="assets/images/icon-economia.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-10 p-2">
+                                    <span><strong>Economia</strong></span>
+                                    <span class="texto-pros">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Vestibulum porttitor luctus. 
+                                        Sed faucibus nunc eu</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-4 px-4 px-md-0 mx-auto posBtnContratar">
+                            <button class="btn btnContratar rounded-pill btn-block">Contratar mensalidade</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-blog py-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-4 mb-2">
+                            <div class="card h-100">
+                                <img src="assets/images/produto01.png" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body text-left pb-0 px-4">
+                                    <h5 class="card-title titulo-noticia">
+                                        <a href="produto.html"><strong>Título da notícia vem aqui</strong></a>
+                                    </h5>
+                                    <div class="card-text texto-noticia">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                            Vestibulum porttitor luctus. 
+                                            Sed faucibus nunc eu Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                            Vestibulum porttitor luctus. 
+                                            Sed faucibus nunc eu
+                                            <br><br>
+                                            Sed faucibus nunc eu
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                            Vestibulum porttitor luctus. 
+                                            Sed faucibus nunc eu</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <div class="row">
+                                <div class="col-12 font-weight-bold depoimentos">
+                                    <p>Depoimentos</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 mb-2">
+                                    <div class="card">
+                                        <div class="row no-gutters">
+                                            <div class="col-md-5">
+                                                <img src="assets/images/avatar.png" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body text-left p-3">
+                                                    <h5 class="card-title font-weight-bold titulo-depoimento">
+                                                        <p><strong>Fulano</strong></p>
+                                                    </h5>
+                                                    <div class="card-text texto-depoimento">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                                Vestibulum porttitor luctus. 
+                                                                Sed faucibus nunc eu Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                                Vestibulum porttitor luctus. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 mb-2">
+                                    <div class="card">
+                                        <div class="row no-gutters">
+                                            <div class="col-md-5">
+                                                <img src="assets/images/avatar.png" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body text-left p-3">
+                                                    <h5 class="card-title font-weight-bold titulo-depoimento">
+                                                        <p><strong>Sicrano</strong></p>
+                                                    </h5>
+                                                    <div class="card-text texto-depoimento">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                                Vestibulum porttitor luctus. 
+                                                                Sed faucibus nunc eu Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                                Vestibulum porttitor luctus. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-8 mx-auto">
+                                    <button class="btn btn-outline-secondary rounded-pill btn-block btnDepoimentos">Ver todos os depoimentos</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="pt-5">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-12 col-md-6">
+                        <div class="logo w-50">
+                            <span>Logo da Empresa</span>
+                        </div>
+                        <p class="my-3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Vestibulum porttitor luctus. 
+                        </p>
+                        <div class="row">
+                            <div class="col-12">
+                                <i class="fa fa-envelope mr-1"></i>E-mail: vendas@dominio.com.br
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <i class="fa fa-phone mr-1"></i>Telefone: (11) 1234-4321
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="row">
+                            <div class="col-12 footer-categoria">Categorias</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 mb-2">
+                                <span>Nome da Categoria</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 mb-2">
+                                <span>Nome da Categoria</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 mb-2">
+                                <span>Nome da Categoria</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 mb-2">
+                                <span>Nome da Categoria</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="row">
+                            <div class="col-12 footer-institucional">Institucional</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 mb-2">
+                                <a href="#">Como comprar</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 mb-2">
+                                <a href="#">Política de Trocas</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 mb-2">
+                                <a href="#">Perguntas Frequentes</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 mb-2">
+                                <a href="#">SAC</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between formas-de-pagamento mx-0 my-3 py-2">
+                    <div class="col-auto col-md-auto my-2 my-md-0">
+                        <img src="assets/images/icon-formas-de-pagamento.png" alt="Formas de Pagamento" class="img-fluid">
+                    </div>
+                    <div class="col-auto col-md-auto my-2 my-md-0">
+                        <img src="assets/images/icon-mastercard.png" alt="Icone MasterCard" class="img-fluid">
+                    </div>
+                    <div class="col-auto col-md-auto my-2 my-md-0">
+                        <img src="assets/images/icon-visa.png" alt="Icone Visa" class="img-fluid">
+                    </div>
+                    <div class="col-auto col-md-auto my-2 my-md-0">
+                        <img src="assets/images/icon-americanexpress.png" alt="Icone American Express" class="img-fluid">
+                    </div>
+                    <div class="col-auto col-md-auto my-2 my-md-0">
+                        <img src="assets/images/icon-dinnersclub.png" alt="Icone Diners Club" class="img-fluid">
+                    </div>
+                    <div class="col-auto col-md-auto my-2 my-md-0">
+                        <img src="assets/images/icon-hipercard.png" alt="Icone Hipercard" class="img-fluid">
+                    </div>
+                    <div class="col-auto col-md-auto my-2 my-md-0">
+                        <img src="assets/images/icon-elo.png" alt="Icone Elo" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- Main JS -->
+		<script src="assets/js/main.js"></script>
+    </body>
+</html>
